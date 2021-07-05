@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* header section start */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffa781;
+}
+.logo {
+  padding: 0 3%;
+}
+.logo a {
+  color: #5b0e2d;
+  text-decoration: none;
+  letter-spacing: 10px;
+  font-size: 40px;
+  font-family: "Pacifico", cursive;
+}
+.navbar {
+  padding: 0 3%;
+  display: flex;
+  list-style: none;
+}
+
+.navbar a {
+  display: block;
+  padding: 1em;
+  color: #5b0e2d;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+/* section-one-start */
+
+.section-one-container {
+  display: flex;
+}
+.section-one-content {
+  margin-top: 20%;
+  width: 50%;
+  margin-left: 5%;
+}
+.section-one-content span {
+  color: orange;
+  margin-right: 3%;
+}
+.section-one-content h1 {
+  font-size: 60px;
+  font-family: "Lobster", cursive;
+}
+/* google font */
+.section-one-content h3 {
+  font-size: 25px;
+  padding: 2% 0;
+}
+.section-one-content p {
+  margin-bottom: 5%;
+}
+.section-one-img {
+  margin-right: 4%;
+  width: 50%;
+  margin-top: 8%;
+}
+.section-one-img img {
+  width: 100%;
+}
+/* css Button */
+.my-btn {
+  background: #cbe055;
+  background-image: -webkit-linear-gradient(top, #cbe055, #86cc58);
+  background-image: -moz-linear-gradient(top, #cbe055, #86cc58);
+  background-image: -ms-linear-gradient(top, #cbe055, #86cc58);
+  background-image: -o-linear-gradient(top, #cbe055, #86cc58);
+  background-image: linear-gradient(to bottom, #f1df70, #f57474);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 2% 5%;
+  text-decoration: none;
+}
+
+.my-btn:hover {
+  background: #2d9fd4;
+  background-image: -webkit-linear-gradient(top, #2d9fd4, #41d184);
+  background-image: -moz-linear-gradient(top, #2d9fd4, #41d184);
+  background-image: -ms-linear-gradient(top, #2d9fd4, #41d184);
+  background-image: -o-linear-gradient(top, #2d9fd4, #41d184);
+  background-image: linear-gradient(to bottom, #2d9fd4, #41d184);
+  text-decoration: none;
+}
+/* section two start */
+.section-two-container {
+  display: flex;
+  background-image: url(../images/bg-1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.section-two-img {
+  padding: 10% 5%;
+  width: 50%;
+}
+.section-two-img img {
+  margin-top: 12%;
+  width: 55%;
+  margin-left: 6%;
+}
+.section-two-content {
+  width: 50%;
+  margin-top: 25%;
+}
+.section-two-content h2 {
+  font-size: 65px;
+  font-family: "Lobster", cursive;
+}
+.section-two-content p {
+  margin-bottom: 5%;
+}
