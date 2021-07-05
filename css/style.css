@@ -42,7 +42,7 @@ body {
   display: flex;
 }
 .section-one-content {
-  margin-top: 20%;
+  margin-top: 15%;
   width: 50%;
   margin-left: 5%;
 }
@@ -60,12 +60,14 @@ body {
   padding: 2% 0;
 }
 .section-one-content p {
+  margin: 3% 0;
   margin-bottom: 5%;
+  padding-right: 15%;
 }
 .section-one-img {
   margin-right: 4%;
   width: 50%;
-  margin-top: 8%;
+  margin-top: 5%;
 }
 .section-one-img img {
   width: 100%;
@@ -99,22 +101,22 @@ body {
 /* section two start */
 .section-two-container {
   display: flex;
+  padding: 5% 4%;
   background-image: url(../images/bg-1.png);
   background-repeat: no-repeat;
   background-position: right;
 }
 .section-two-img {
-  padding: 10% 5%;
   width: 50%;
 }
 .section-two-img img {
   margin-top: 12%;
-  width: 55%;
+  width: 54%;
   margin-left: 6%;
 }
 .section-two-content {
   width: 50%;
-  margin-top: 25%;
+  margin-top: 20%;
 }
 .section-two-content h2 {
   font-size: 65px;
@@ -122,4 +124,72 @@ body {
 }
 .section-two-content p {
   margin-bottom: 5%;
+}
+/* section-three-start  */
+.s3-h2 {
+  font-size: 65px;
+  font-family: "Lobster", cursive;
+  text-align: center;
+}
+.s3-p {
+  margin-top: 2%;
+  padding: 0 22%;
+  text-align: center;
+}
+.section-three-content {
+  display: flex;
+}
+/* content one */
+.section-three-content-one {
+  margin: 4% 0;
+  padding: 15px 0;
+  box-shadow: 5px 7px 40px grey;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 5%;
+}
+
+.section-three-content-one img {
+  width: 370px;
+  height: 255px;
+  border-radius: 15px;
+}
+.section-three-content-one h2 {
+  margin: 15px 0;
+}
+
+/* content two */
+.section-three-content-two {
+  margin: 4% 2%;
+  padding: 15px 10px;
+  box-shadow: 5px 7px 40px grey;
+  text-align: center;
+  border-radius: 20px;
+}
+.section-three-content-two img {
+  width: 340px;
+  height: 250px;
+  border-radius: 15px;
+}
+.section-three-content-two h2 {
+  margin: 15px 0;
+}
+
+/* content three */
+.section-three-content-three {
+  margin: 4% 0;
+  padding: 15px 0px;
+  box-shadow: 5px 7px 40px grey;
+  text-align: center;
+  border-radius: 20px;
+  margin-right: 5%;
+}
+
+.section-three-content-three img {
+  width: 340px;
+  height: 250px;
+  border-radius: 15px;
+}
+.section-three-content-three h2 {
+  margin: 15px 0;
 }
