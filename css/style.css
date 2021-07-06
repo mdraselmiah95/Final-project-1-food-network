@@ -51,7 +51,7 @@ body {
   margin-right: 3%;
 }
 .section-one-content h1 {
-  font-size: 60px;
+  font-size: 3.75em;
   font-family: "Lobster", cursive;
 }
 /* google font */
@@ -120,7 +120,7 @@ body {
   margin-top: 20%;
 }
 .section-two-content h2 {
-  font-size: 65px;
+  font-size: 4.0627em;
   font-family: "Lobster", cursive;
 }
 .section-two-content p {
@@ -128,8 +128,8 @@ body {
 }
 
 /* Section-three-start  */
-.s3-continer-h2 {
-  font-size: 65px;
+.s3-container-h2 {
+  font-size: 4.0627em;
   font-family: "Lobster", cursive;
   text-align: center;
 }
